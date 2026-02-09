@@ -1,0 +1,5 @@
+SELECT 
+  Category, 
+  COUNT(*) AS total_count_category
+FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
+GROUP BY Category;
