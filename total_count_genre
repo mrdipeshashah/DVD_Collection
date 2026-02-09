@@ -1,0 +1,5 @@
+SELECT 
+  Genre, 
+  COUNT(*) AS total_count_genre
+FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
+GROUP BY Genre;
