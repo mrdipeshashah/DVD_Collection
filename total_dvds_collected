@@ -1,0 +1,3 @@
+SELECT 
+  COUNT(*) AS total_dvds_collected
+FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
