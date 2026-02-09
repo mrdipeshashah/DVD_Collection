@@ -1,0 +1,7 @@
+SELECT 
+  FLOOR(ProductionYear / 10) * 10 AS decade,
+  COUNT(*) AS title_count_bydecade
+FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
+WHERE ProductionYear IS NOT NULL
+GROUP BY decade
+ORDER BY decade DESC;
