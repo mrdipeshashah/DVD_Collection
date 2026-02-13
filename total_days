@@ -1,7 +1,7 @@
 WITH cleaned_data AS (
   SELECT 
     SAFE_CAST(REGEXP_EXTRACT(runningtime, r'(\d+\.?\d*)') AS FLOAT64) AS clean_hours
-  FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
+  FROM `enter.tablename_123456.events_*`
 ),
 stats AS (
   SELECT 
