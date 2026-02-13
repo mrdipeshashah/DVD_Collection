@@ -1,5 +1,5 @@
 SELECT 
   MediaType, 
   COUNT(*) AS total_count_mediatype
-FROM `mrdipeshashah.mydvdcollection.dvdcollection` 
+FROM `enter.tablename_123456.events_*`
 GROUP BY MediaType;
